@@ -1,0 +1,30 @@
+{
+  "name": "@mz/iphone-device-info",
+  "version": "1.0.0",
+  "description": "This repo provides multiple iphone screen info for frontend developers, including screen pixel, safe area...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelji520/iphone-device-info.git"
+  },
+  "keywords": [
+    "iphone",
+    "iphone",
+    "screen",
+    "safe",
+    "area",
+    "ios",
+    "safearea",
+    "screen",
+    "info"
+  ],
+  "author": "HeiHei2TheSky",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/michaelji520/iphone-device-info/issues"
+  },
+  "homepage": "https://github.com/michaelji520/iphone-device-info#readme"
+}
