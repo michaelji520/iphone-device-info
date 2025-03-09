@@ -168,6 +168,33 @@ const iphoneSeriesDeviceInfo: IphoneDevice[] = [
       right: 59,
     },
   },
+  {
+    id: 5,
+    name: "iPhone 15 Plus/15 Pro Max",
+    series: ["iPhone 15 Plus", "iPhone 15 Pro Max"],
+    viewportSize: {
+      width: 430,
+      height: 932,
+    },
+    screenSize: {
+      width: 1290,
+      height: 2796,
+    },
+    display: 6.7,
+    devicePixelRatio: 3,
+    safeArea: {
+      top: 59,
+      bottom: 34,
+      left: 0,
+      right: 0,
+    },
+    safeAreaLandscape: {
+      top: 0,
+      bottom: 21,
+      left: 59,
+      right: 59,
+    },
+  },
 ];
 
 export default iphoneSeriesDeviceInfo;
