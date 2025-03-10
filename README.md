@@ -1,2 +1,5 @@
-# iphone-device-info
-iphone screen size info and safe area parameters for frontend developers
+# @mz/iphone-device-info
+
+This repo provides multiple iphone screen info for frontend developers, including screen pixel, safe area...
+
+if you have any suggestions, feel free to submit an issue or send an email.

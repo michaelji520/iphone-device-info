@@ -2,14 +2,26 @@
   "name": "@mz/iphone-device-info",
   "version": "1.0.0",
   "description": "This repo provides multiple iphone screen info for frontend developers, including screen pixel, safe area...",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/michaelji520/iphone-device-info.git"
   },
+  "files": [
+    "dist/**/*"
+  ],
   "keywords": [
     "iphone",
     "iphone",
@@ -26,5 +38,11 @@
   "bugs": {
     "url": "https://github.com/michaelji520/iphone-device-info/issues"
   },
-  "homepage": "https://github.com/michaelji520/iphone-device-info#readme"
+  "homepage": "https://github.com/michaelji520/iphone-device-info#readme",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^5.8.2"
+  }
 }
