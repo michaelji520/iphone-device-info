@@ -1,11 +1,11 @@
 {
-  "name": "@mz/iphone-device-info",
+  "name": "@heihei2thesky/iphone-device-info",
   "version": "1.0.0",
   "description": "This repo provides multiple iphone screen info for frontend developers, including screen pixel, safe area...",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "exit 0",
     "build": "tsc -p tsconfig.json",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
