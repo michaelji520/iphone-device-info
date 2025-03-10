@@ -19,6 +19,7 @@ export interface IphoneDevice {
 }
 
 export interface SafeArea {
+  /** unit: px */
   top: number;
   bottom: number;
   left: number;
@@ -26,6 +27,7 @@ export interface SafeArea {
 }
 
 export interface Size {
+  /** unit: px */
   width: number;
   height: number;
 }
