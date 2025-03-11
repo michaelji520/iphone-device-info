@@ -2,7 +2,7 @@
 
 This repo provides multiple iphone screen info for frontend developers, including screen size, safe area parameters, dpr... 
 
-The data structure is as follows.
+The data structure is as follows
 
 ```typescript
 export interface IphoneDevice {
